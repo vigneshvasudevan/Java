@@ -1,0 +1,12 @@
+Setting up basic developer environment:
+
+1. Download Visual studio code IDE from internet, https://code.visualstudio.com/download
+2. Download JDK from internet, https://adoptopenjdk.net/index.html
+3. Post installation, open the command prompt or terminal and run below command
+    java -version
+
+    sample output: openjdk version "18" 2022-03-22
+
+    if you get an error saying command unrecongized or not found, add the java installation path
+    to your system environment variable, For details follow https://www.ibm.com/docs/en/b2b-integrator/5.2?topic=installation-setting-java-variables-in-windows
+    and try again
