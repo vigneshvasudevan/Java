@@ -1,0 +1,101 @@
+################
+Course syllabus
+################
+
+------------------------
+Introduction to Java
+------------------------
+    Java vs Rest of the programming language
+    JVM vs JRE vs JIT difference
+    Setting up dev environment
+
+------------------------
+Basics of Java
+------------------------
+    Variable, Constness
+    Data types(Primitive)
+    String vs Char array
+    String Pools
+    Typecasting
+    Non Primitive types
+    Operators
+    Deep vs shallow copy
+    Garbage collection
+
+-----------------------
+conditional statements:
+-----------------------
+    if-else
+    nested if-else
+    switch-case
+    if-else vs switch classes
+
+
+-----------------------
+Loops:
+-----------------------
+    why loops?
+    For, while and do-while loops syntax
+    keywords: break, continue
+    Different ways to iterate over array, sets, map, strings
+    
+-----------------------
+Function:
+-----------------------
+    Why function?
+    Function syntax
+    Function accepting argument and return value
+    Call by value vs Reference
+
+-----------------------
+Class:
+----------------------- 
+    What is a class?
+    Class vs Object
+    Constructor
+    Special keyword(This, static, Super)
+    Access specifiers in class(public, private, protected)
+    Class PATH
+    Java lang hierarchy
+
+-----------------------------------
+Object Oriented Principles (OOPS):
+-----------------------------------
+    Encapsulation & data security
+    Inheritance
+    Method overload
+    Method overriding
+    Downcasting and Upcasting
+    Dynamic binding, Run time polymorphism
+    Abstract class 
+    Interface
+
+-----------------------
+Package:
+----------------------- 
+    Creating pacakge
+    Access modifiers
+    Cloning
+
+-----------------------
+Misc class topics
+-----------------------
+    Nested class
+    Wrapper class
+    Exception handling
+
+-----------------------
+Advance core topics
+-----------------------
+    File IO
+    Transisent keyword
+    Multi threading
+    Reflection
+    Regex
+    JDBC
+    Testing
+    Maven vs ant
+    Maven POM overview
+
+
+
