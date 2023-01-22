@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 /*
 why do we need a conditional statement?
-Execute statement(s) when it meets one or more conditions
+Execute statement(s) when it meets one or more conditions.
+Conditionals statements often make use of logical operators to create complex
+condition. Conditional statements can also be nested.
 */
 
 public class a06ConditionalStatement {
@@ -45,6 +47,7 @@ public class a06ConditionalStatement {
         if (year < 1)
             System.out.println("Invalid year");
 
+        // Nested conditional operator
         if (year % 4 == 0) {
             if (year % 100 != 0) {
                 System.out.println("Leap year");
@@ -64,6 +67,16 @@ public class a06ConditionalStatement {
             System.out.println("Not an leap year");
         } else {
             System.out.println("leap year");
+        }
+
+        System.out.println("Enter a number");
+        int number = scan.nextInt();
+        switch (number % 3) {
+            case 0:
+                System.out.println("number is perfectly divisilble by 3");
+                break;
+            default:
+                System.out.println("number is not divisible by 3");
         }
         scan.close();
 

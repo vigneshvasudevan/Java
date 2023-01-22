@@ -23,11 +23,13 @@ say character to integer it would be casted as required to fit.
 
 public class a02Variables {
     static int var1 = 10;
+    static final int foo = 40; // this can't be modified later
 
     public static void main(String[] args) {
         // declaring a local variable without initalizing explicitly
-        int var2; // default value of 'int' i.e 0 will be assigned to var2
-        System.out.format("var2 = %d%n", var2);
+        // int var2;
+        //  default value of 'int' i.e 0 will be assigned to var2
+        // System.out.format("var2 = %d%n", var2); 
         // declaring and initializing variable
         int var3 = 20;
         System.out.format("var3 = %d%n", var3);
@@ -38,5 +40,8 @@ public class a02Variables {
             System.out.format("var4 = %d%n", var4);
         }
         // var4 won't be seen outside the block
+
+        final int constantNumber = 200; // this can't be modified later
+        System.out.println(constantNumber);
     }
 }
